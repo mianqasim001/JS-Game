@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #1b2735, #090a0f);
+  color: white;
+}
+
+/* Header */
+header {
+  background: #0a0f1a;
+  color: #00eaff;
+  padding: 15px;
+  font-size: 1.5em;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background: #00eaff;
+  border-radius: 5px;
+}
+
+/* Canvas */
+canvas {
+  background: linear-gradient(180deg, #5cb6f9 0%, #2a5298 100%);
+  border: 3px solid #00eaff;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #00eaff88;
+}
+
+/* Game Over Screen */
+#gameOverScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #00eaff;
+  border-radius: 10px;
+  padding: 30px;
+  color: #fff;
+  box-shadow: 0 0 20px #00eaff;
+}
+.hidden {
+  display: none;
+}
+#retryBtn {
+  background: #00eaff;
+  color: black;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#retryBtn:hover {
+  background: #00bfff;
+}
+
+/* Footer */
+footer {
+  background: #0a0f1a;
+  padding: 10px;
+  color: #aaa;
+  font-size: 14px;
+}

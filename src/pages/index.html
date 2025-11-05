@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2D Runner Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏃‍♂️ 2D Runner Adventure</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Play</a></li>
+      <li><a href="#">Levels</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <canvas id="gameCanvas" width="800" height="450"></canvas>
+
+  <!-- Retry Screen -->
+  <div id="gameOverScreen" class="hidden">
+    <h2>💥 Game Over!</h2>
+    <button id="retryBtn">Retry</button>
+  </div>
+
+  <footer>
+    <p>Controls: ← → Move | ↑ Jump | ↓ Crouch | Space = Punch</p>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
